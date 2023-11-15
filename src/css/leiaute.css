@@ -7,7 +7,7 @@ main .col {
 }
 
 main > div > h6 {
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 main img {
@@ -20,7 +20,7 @@ footer {
 }
 
 header p {
-    font-size: 0.6em;
+    font-size: 0.4em;
 }
 
 .card-text {
