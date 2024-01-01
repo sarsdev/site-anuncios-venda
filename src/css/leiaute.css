@@ -1,3 +1,7 @@
+body {
+    min-width: 280px;
+}
+
 header > div {
     margin-top: 2rem;
 }
@@ -6,12 +10,18 @@ main .col {
     margin-top: 2rem;
 }
 
-main > div > h6 {
+main h6 {
     margin-top: 2rem;
+    font-size: 1em;
 }
 
 main img {
     width: 50px;
+}
+
+main .card {
+    width: 100%;
+    min-width: 10rem;
 }
 
 footer {
@@ -20,7 +30,8 @@ footer {
 }
 
 header p {
-    font-size: 0.4em;
+    font-size: 0.6em;
+    margin-bottom: 0px;
 }
 
 .card-text {
@@ -29,4 +40,40 @@ header p {
 
 .card-body p i {
     font-size: 0.7em;
+}
+
+@media screen and (min-width: 480px) {
+    header p {
+        font-size: 0.8em;
+    }
+
+    main h6 {
+        font-size: 1.2em;
+    }
+
+    main .card {
+        min-width: 13rem;
+    }
+
+    .card-text {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    header p {
+        font-size: 1em;
+    }
+
+    main h6 {
+        font-size: 1.4em;
+    }
+
+    main .card {
+        min-width: 16rem;
+    }
+
+    .card-text {
+        font-size: 1.2em;
+    }
 }
